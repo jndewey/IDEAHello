@@ -8,5 +8,6 @@ func sayHello(name string) {
 
 func main() {
 	sayHello("Bobby")
-	TestFunction(5)
+	number :=TestFunction(5)
+	fmt.Println(number)
 }
